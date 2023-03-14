@@ -1,10 +1,11 @@
-<svg fill="none" viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 500 500" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>                
                 h1, h2 {
                     color: blue;
                     animation: fadeIn 5s;
+                    text-align: center;
                 }
                 
                 h1 {
@@ -16,6 +17,11 @@
                     font-size: 30px;   
                     margin-bottom: 30px;
                 }
+                
+                .portfolio-body-wrapper{
+                    background-color: white !important;
+                    // todo : add font style here!
+                }
 
 
                 @keyframes fadeIn {
@@ -24,8 +30,18 @@
                 }
             
             </style>
-            <h1>Caleum Sean Fox Norbury</h1>
-            <h2>DEVELOPER</h2>
+            <div class="portfolio-body-wrapper">
+            
+                <h1>Caleum Sean Fox Norbury</h1>
+                <h2>DEVELOPER</h2>
+                
+                <div class="about-me">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                
+                <div>
+                </div>
+            </div>
         </div>
     </foreignObject>
 </svg>
