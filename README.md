@@ -1,12 +1,4 @@
-<div align="center">
-    <img src="name.svg" width="700" height="500" alt="css-in-readme">
-</div>
-
-<div align="left">
-
-</div>
-
-
+<img src="name.svg" width="700" height="500" alt="css-in-readme">
 
 
  // template below 
