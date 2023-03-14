@@ -1,3 +1,16 @@
 # Caleum Norbury
 
-Collection of everything I can do
+Developer
+
+## Langauges 
+
+## Frameworks 
+
+
+## University 
+
+## iBe Loyalty 
+
+## Venuus 
+
+## Learn With Me 
