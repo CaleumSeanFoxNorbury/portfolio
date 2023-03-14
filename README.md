@@ -1,10 +1,6 @@
 <img src="name.svg">
 
-![image](https://user-images.githubusercontent.com/33324819/225015020-b392572f-1d6b-44a8-8eb7-66505af6f83c.png)
-
-
  // template below 
- 
  
 # Caleum Norbury
 
