@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="name.svg" width="400" height="400" alt="css-in-readme">
+    <img src="name.svg" width="200" height="500" alt="css-in-readme">
 </div>
 
 <div align="left">
