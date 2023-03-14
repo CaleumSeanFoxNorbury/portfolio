@@ -3,12 +3,12 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>                
                 h1, h2 {
-                    color: blue;                
+                    color: blue;
+                    animation: fadeIn 5s;
                 }
                 
                 h1 {
                     font-size: 40px;
-                    animation: mymove 2s infinite;
                     margin-bottom: 10px;
                 }
 
@@ -17,13 +17,10 @@
                     margin-bottom: 30px;
                 }
 
-                @keyframes mymove {
-                    from {
-                        color: red;
-                    }
-                    to {
-                        color: yellow;
-                    }
+
+                @keyframes fadeIn {
+                  0% { opacity: 0; }
+                  100% { opacity: 1; }
                 }
             
             </style>
