@@ -1,20 +1,81 @@
 <svg fill="none" viewBox="0 0 500 500" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>                
+            <style>  
+                
+                button {
+                    position: relative;
+                    width: 100px;
+                    height: 100px;
+                    margin: 20px;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    color: white;
+                    padding: 0;
+                    box-sizing: content-box;
+                    border: 2px solid transparent;
+                }
+                button::before, button::after, span::before, span::after {
+                    display: block;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                }
+                button::before {
+                    top: -2px;
+                    left: -2px;
+                    border-top: 2px solid white;
+                    border-left: 2px solid white;
+                    transition: 0.5s all;
+                }
+                button::after {
+                    top: -2px;
+                    right: -2px;
+                    border-top: 2px solid white;
+                    border-right: 2px solid white;
+                    transition: 0.5s all;
+                }
+                span::before {
+                    bottom: -2px;
+                    left: -2px;
+                    border-bottom: 2px solid white;
+                    border-left: 2px solid white;
+                    transition: 0.5s all;
+                }
+                span::after {
+                    bottom: -2px;
+                    right: -2px;
+                    border-bottom: 2px solid white;
+                    border-right: 2px solid white;
+                    transition: 0.5s all;
+                }
+
+                button:hover::before, button:hover::after {
+                    width: 50px;
+                    height: 50px;
+                }
+
+                button:hover span::before, button:hover span::after {
+                    width: 50px;
+                    height: 50px;
+                }
+                
+                
                 .main-title, .second-title {
-                    color: blue;
+                    color: white;
                     animation: fadeIn 5s;
                     font-weight: bold;
                 }
                 
                 .main-title {
-                    font-size: 30px;
+                    font-size: 20px;
                     margin-bottom: 10px;
                 }
 
                 .second-title {
-                    font-size: 20px;   
+                    font-size: 15px;   
                 }                              
                 
                 .bg-img{
@@ -24,7 +85,11 @@
                       height: 100%;
                       z-index: -1;
                  }
-
+                
+                .see-more-toggle{
+                    margin: 20px;
+                
+                }
 
                 @keyframes fadeIn {
                   0% { opacity: 0; }
@@ -41,22 +106,22 @@
                     flex-direction: col;  
                 }
                 .aicenter{align-items: center;}
-                .jccenter{justify-content: center;}
-            
+                .jccenter{justify-content: center;}                                            
             </style>
                             
             <svg xmlns='http://www.w3.org/2000/svg' class="bg-img" width='100%' height='100%' viewBox='0 0 800 800'><rect fill='#330033' width='800' height='800'/><g fill='none' stroke='#404'  stroke-width='3.9'><path d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/><path d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/><path d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/><path d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/><path d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/></g><g  fill='#505'><circle  cx='769' cy='229' r='25'/><circle  cx='539' cy='269' r='25'/><circle  cx='603' cy='493' r='25'/><circle  cx='731' cy='737' r='25'/><circle  cx='520' cy='660' r='25'/><circle  cx='309' cy='538' r='25'/><circle  cx='295' cy='764' r='25'/><circle  cx='40' cy='599' r='25'/><circle  cx='102' cy='382' r='25'/><circle  cx='127' cy='80' r='25'/><circle  cx='370' cy='105' r='25'/><circle  cx='578' cy='42' r='25'/><circle  cx='237' cy='261' r='25'/><circle  cx='390' cy='382' r='25'/></g></svg>                
-            <!-- NOTE: adding padding here to make up for the space the svg background img will need due to the height/width percentage type -->
-                              
-                <div class="intro" style="width: 400px;margin: 0 auto; padding-top: 100px;">  
-                    <div class="second-title">DEVELOPER</div> 
-                    <div class="main-title">Caleum Sean Fox Norbury</div>
+            <!-- NOTE: adding padding here to make up for the space the svg background img will need due to the height/width percentage type -->                              
+            <div class="intro" style="width: 400px;margin: 0 auto; padding-top: 100px;">  
+                <div class="second-title">DEVELOPER</div> 
+                <div class="main-title">Caleum Sean Fox Norbury</div>
 
-                    <div class="about-me">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>  
-                </div>
-           
+                <div class="about-me">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>  
+                    
+                <button><span>See More About Me</span></button>
+<!--                 <div class="see-more-toggle">See More About Me</div> -->
+            </div>
         </div>
     </foreignObject>
 </svg>
