@@ -21,6 +21,12 @@
                 .portfolio-body-wrapper{
                     background-color: white !important;
                     // todo : add font style here!
+<!--                     background-image: url("https://www.karier.mu/blog/wp-content/uploads/2021/12/programmin-990x500.jpg"); -->
+                }
+                
+                .background-img{
+                    width: 100px;   
+                    height: 100px;   
                 }
 
 
@@ -30,6 +36,9 @@
                 }
             
             </style>
+            
+            <a class="background-img" href="https://www.karier.mu/blog/wp-content/uploads/2021/12/programmin-990x500.jpg"></a>
+                
             <div class="portfolio-body-wrapper">
             
                 <h1>Caleum Sean Fox Norbury</h1>
