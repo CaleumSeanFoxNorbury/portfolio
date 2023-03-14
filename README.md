@@ -1,4 +1,4 @@
-<img src="name.svg" width="700" height="500" alt="css-in-readme">
+<img src="name.svg">
 
 
  // template below 
